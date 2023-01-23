@@ -5,20 +5,20 @@ import * as C from "./styles";
 const index = () => {
   return (
     <C.NavbarContainer>
-        <NavBarInnerContainer>
+        <C.NavBarInnerContainer>
         <C.LeftContainer> 
           <C.Logo src={LogoAsset}></C.Logo>
         </C.LeftContainer>
         <C.RightContainer> 
             <C.NavBarLinkContainer>
-                <NavBarLink to="/">HOME</NavBarLink >
-                <NavBarLink  to="/">MAQUININHAS</NavBarLink >
-                <NavBarLink  to="/">SOBRE NÓS</NavBarLink >
-                <NavBarLink  to="/">PEÇA A SUA PAGGUE</NavBarLink >
+                <C.NavBarLink to="/">HOME</C.NavBarLink >
+                <C.NavBarLink  to="/">MAQUININHAS</C.NavBarLink >
+                <C.NavBarLink  to="/">SOBRE NÓS</C.NavBarLink >
+                <C.NavBarLink  to="/">PEÇA A SUA PAGGUE</C.NavBarLink >
             </C.NavBarLinkContainer>
         </C.RightContainer>
-        </NavBarInnerContainer>
-        <NavBarExtendedContainer></NavBarExtendedContainer>
+        </C.NavBarInnerContainer>
+        <C.NavBarExtendedContainer></C.NavBarExtendedContainer>
     </C.NavbarContainer>
   )
 }

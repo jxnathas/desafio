@@ -23,11 +23,11 @@ export const RightContainer = styled.div`
     padding-right: 50px;
 `;
 
-export const NaInnerContainer = styled.div`
+export const NavBarInnerContainer = styled.div`
     width:100%;
-    height: 10px;
+    height: 125px;
     display: flex;
-    background-color: #6610F2;
+    background-color: #FFFFFFF;
 `;
 
 export const NavBarLinkContainer = styled.div`
@@ -37,6 +37,7 @@ export const NavBarLinkContainer = styled.div`
 export const NavBarLink = styled(Link)`
     color: #777777;
     font-size: 20px;
+    font-weight: 900;
     font-family: Sora;
     text-decoration: none;
     margin: 10px;
@@ -48,6 +49,6 @@ export const Logo = styled.img`
     height: auto;
 `;
 
-export const NavExtendedContainer = styled.div`
+export const NavBarExtendedContainer = styled.div`
 
 `;
