@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   gap: 10px;
   height: 100vh;
@@ -23,6 +22,13 @@ export const Content = styled.div`
   padding: 20px;
   border-radius: 15px;
 `;
+
+export const Section = styled.section`
+  background-color: #6610F2;
+  display: flex;
+
+`;
+
 export const OutsideContent = styled.div`
   display: flex;
   align-items:center;
@@ -33,7 +39,7 @@ export const OutsideContent = styled.div`
 
 export const Label = styled.label`
   font-size: 120px;
-  font-weight: bold;
+  font-weight: 900;
   color: #6F42C1;
   font-family: Sora;
   padding-right: 39.5%;

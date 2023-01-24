@@ -1,10 +1,12 @@
 import React from 'react'
 import LogoAsset from '../../assets/logo.png';
+import LineAsset from '../../assets/line.png';
 import * as C from "./styles";
 
 const index = () => {
   return (
     <C.NavbarContainer>
+      <C.Line src={LineAsset}></C.Line>
         <C.NavBarInnerContainer>
         <C.LeftContainer> 
           <C.Logo src={LogoAsset}></C.Logo>

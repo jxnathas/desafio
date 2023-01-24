@@ -37,7 +37,7 @@ export const NavBarLinkContainer = styled.div`
 export const NavBarLink = styled(Link)`
     color: #777777;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: bold;
     font-family: Sora;
     text-decoration: none;
     margin: 10px;
@@ -47,6 +47,10 @@ export const Logo = styled.img`
     margin: 10px;
     max-width: 255;
     height: auto;
+`;
+
+export const Line = styled.img`
+
 `;
 
 export const NavBarExtendedContainer = styled.div`

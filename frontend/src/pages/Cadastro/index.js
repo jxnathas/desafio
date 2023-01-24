@@ -4,6 +4,7 @@ import Button from "../../components/Button";
 import * as C from "./styles";
 import { Link, useNavigate } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
+import NavBar from "../../components/NavBar";
 
 const Cadastro = () => {
   const [email, setEmail] = useState("");
@@ -36,7 +37,7 @@ const Cadastro = () => {
 
   return (
     <C.Container>
-      <C.Label>Cadastro</C.Label>
+      <NavBar/>
       <C.Content>
         <Input
           type="email"
