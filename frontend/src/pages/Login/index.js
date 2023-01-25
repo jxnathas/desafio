@@ -41,13 +41,13 @@ const Login = () => {
         <C.subtitle>Entre para acessar sua conta</C.subtitle>
         <Input
           type="email"
-          placeholder="Digite seu E-mail"
+          placeholder="E-MAIL"
           value={email}
           onChange={(e) => [setEmail(e.target.value), setError("")]}
         />
         <Input
           type="password"
-          placeholder="Digite sua Senha"
+          placeholder="SENHA"
           value={senha}
           onChange={(e) => [setSenha(e.target.value), setError("")]}
         />
