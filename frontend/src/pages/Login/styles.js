@@ -39,7 +39,7 @@ export const OutsideContent = styled.div`
 
 export const Label = styled.label`
   font-size: 120px;
-  font-weight: 900;
+  font-weight: bold;
   color: #6F42C1;
   font-family: Sora;
   padding-right: 39.5%;
