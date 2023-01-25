@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Table = styled.table`
+export const Table = styled.table`
     width: 100%;
     background-color: #fff;
     padding:20px;
@@ -14,9 +14,18 @@ const Table = styled.table`
 export const Thead = styled.thead`
 
 `;
+export const Tbody = styled.thead`
+
+`;
 
 export const Tr = styled.tr`
 
+`;
+
+export const Td = styled.td`
+    padding-top: 15px;
+    text-align: ${(props) => (props.alignCenter ? "center" : "start")};
+    width: ${(props) => (props.width ? props.width : "auto")};
 `;
 
 export const Th = styled.th`

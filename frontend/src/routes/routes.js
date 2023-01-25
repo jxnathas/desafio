@@ -5,6 +5,7 @@ import Cadastro from "../pages/Cadastro";
 import Perfil from "../pages/Perfil";
 import useAuth from "../hooks/useAuth";
 import CadastroCliente from "../pages/CadastroCliente";
+import Cupons from "../pages/Cupons"
 
 const Private = ({ Item }) => {
     const { signed } = useAuth();
@@ -20,7 +21,8 @@ const RoutesApp = () => {
                 <Route path="*" element={<Login/>}/>
                 <Route path="/" element={<Login/>} />
                 <Route exact path="/perfil" element={<Private Item={Perfil}/>} />
-                <Route path="cliente" element={<CadastroCliente/>} />
+                <Route path="/cliente" element={<CadastroCliente/>} />
+                <Route path="/cupons" element={<Cupons/>} />
                 <Route exact path="/cadastro" element={<Cadastro/>} />
             </Routes>
         </Fragment>

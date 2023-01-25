@@ -1,0 +1,14 @@
+{
+    "user": [
+      { "email": "master@master.com", "senha": "MASTER"}
+    ],
+    "cliente": [
+      { "nome": "Fulano", "cpf": "0543212", "estabelecimento": "Casa do Fulano", "email": "fulano@mail.com", "senha": "fulanosenha", "telefone": "00 91122-3344", "banco": "023903", "pix":"0543212", "endereco":"Rua dos Bobos N 0", "pagamentos":"2"}
+    ],
+    "produto": [
+        { "nome": "Hamburguer", "descricao": "Hamburguer delicioso", "categoria": "alimento", "preco": "22", "estoque": "50"}
+      ],
+    "loja":[ { "cor": "#6540FF", "banner":"../../assets/banner.png", "desconto": 20, "percentual":5} 
+    ],
+    "cupom": {"validade":20,"quantidade":2}
+  }
