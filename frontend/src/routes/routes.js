@@ -6,6 +6,7 @@ import Perfil from "../pages/Perfil";
 import useAuth from "../hooks/useAuth";
 import CadastroCliente from "../pages/CadastroCliente";
 import Cupons from "../pages/Cupons"
+import Produtos from "../pages/Produtos"
 
 const Private = ({ Item }) => {
     const { signed } = useAuth();
