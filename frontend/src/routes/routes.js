@@ -21,6 +21,7 @@ const RoutesApp = () => {
                 <Route path="*" element={<Login/>}/>
                 <Route path="/" element={<Login/>} />
                 <Route exact path="/perfil" element={<Private Item={Perfil}/>} />
+                <Route exact path="/produtos" element={<Private Item={Produtos}/>}/>
                 <Route path="/cliente" element={<CadastroCliente/>} />
                 <Route path="/cupons" element={<Cupons/>} />
                 <Route exact path="/cadastro" element={<Cadastro/>} />
