@@ -1,3 +1,9 @@
+Para rodar o projeto
+cd frontend
+yarn start
+
+
+
 Desafio Front-end
 No nosso dia-a-dia, temos alguns desafios, como desenvolver componentes, aplicações, lidar com prazos e etc. Mas sabe o que é um desafio de verdade? Manter um código bom mesmo com situações corriqueiras.
 
